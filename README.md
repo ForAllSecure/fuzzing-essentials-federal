@@ -2,7 +2,16 @@
 
 ## Schedule
 
-TBD
+* Day 1: 10 am - 5:00 pm ET
+  * Lunch: 12 pm - 1:00 pm ET
+  * 5 minute break every ~1 hour.
+  * 15 minute break every ~2 hours.
+  * Social 5:00 pm - 5:30 pm ET
+
+* Day 2: 10 am - 3:00 pm ET
+  * Lunch: 12 pm - 1:00 pm ET
+  * 5 minute break every ~1 hour.
+  * 15 minute break every ~2 hours. 
 
 ## Links
 
