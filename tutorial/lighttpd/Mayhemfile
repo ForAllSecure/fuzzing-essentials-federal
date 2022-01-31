@@ -1,0 +1,37 @@
+# Mayhem Version
+version: '1.15'
+
+# The Docker image that our target lives in.
+baseimage: $MAYHEM_DOCKER_REGISTRY/forallsecure/tutorial/lighttpd:1.4.15
+
+# How long to run behavior analysis.
+duration: 30
+
+# Project and target within Mayhem
+project: tutorial
+target: lighttpd
+
+# Turn on Mayhem's advanced triage capabilities.
+advanced_triage: true
+
+# The tasks to perform during a run. 
+tasks:
+  - name: exploitability_factors
+  - name: regression_testing
+  - name: behavior_testing
+  - name: coverage_analysis
+
+# How Mayhem will execute lighttpd.
+cmds:
+  - cmd: /usr/local/sbin/lighttpd -D -f /usr/local/etc/lighttpd.conf
+    network:
+      url: tcp://localhost:80
+      timeout: 2
+      is_client: false
+    env: {}
+
+# Where Mayhem will look for "seed" payloads.
+corpus:
+  - https://training.forallsecure.com/nathan/tutorial/lighttpd/corpus.tar
+  - file://corpus
+

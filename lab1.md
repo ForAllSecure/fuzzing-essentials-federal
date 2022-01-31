@@ -42,7 +42,7 @@ There are two tabs of analysis options: Basic and Advanced. We will be configuri
    ![Advanced configuration](assets/images/advanced-configuration-options.png)
 
    
-## Click start run!
+## Step 4. Click start run!
 
 Click the start run button at the bottom of your screen to begin analysis!
 
@@ -63,7 +63,13 @@ You've just:
   
 # Lab 1b: Run with the Mayhem CLI
 
-## Log in the CLI
+## Overview
+
+This guide will show you how to start a run using the Mayhem CLI.
+
+**Time to complete**: About 5 minutes
+
+## Step 1. Log in to Mayhem with the CLI
 
 The `mayhem` CLI authenticates to the Mayhem server using an API token. The API
 token  is available three places:
@@ -80,6 +86,37 @@ mayhem login https://training.forallsecure.com/ <YOUR API KEY>
 ```
 
 ![API Token Locations](assets/images/api-token-locations.png)
+
+## Step 2. Navigate to the Tutorial Directory
+
+The tutorial assets are already on your lab virtual machine. Change to the
+directory that holds the tutorial "Mayhemfile".
+
+```
+cd fuzzing-essentials-federal/tutorial/lighttpd/
+```
+
+## Step 3. Start the run with the Mayhem CLI.
+
+For this tutorial, no changes to the Mayhemfile are neccesary. We're starting
+the same run as in lab 1a, but this time with the CLI.
+
+```
+mayhem run .
+```
+
+You should see output that looks similar to this:
+```
+WARNING: corpus is not a file or directory, skipping
+Run started: tutorial/lighttpd/2
+Run URL: https://training.forallsecure.com:443/nathan/tutorial/lighttpd/2
+tutorial/lighttpd/2
+```
+
+Note the warning regarding the corpus directory is normal for this tutorial.
+
+Navigate to the run page by copying and pasting "Run URL" from the above output
+into your web browser's address bar.
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
