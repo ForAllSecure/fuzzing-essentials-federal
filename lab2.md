@@ -27,9 +27,6 @@ directory with `-o`.
 mayhem download tutorial/lighttpd -o /tmp/lighttpd
 ```
 
-**Tip**: You can use the `mayhem sync` command to syncronize
-a folder that already has a `Mayhemfile`.
-
 ## Run docker image
 
 Docker is a lightweight container, which is like a virtual 
@@ -44,7 +41,7 @@ nuts and bolts. We recommend you take some time to read the Docker
 
 To run the vulnerable image:
 ```
-docker run --rm -i -d -p 8080:80 training.forallsecure.com:5000/forallsecure/tutorial/lighttpd
+docker run --rm -i -d -p 8080:80 training.forallsecure.com:5000/forallsecure/tutorial/lighttpd:1.4.15
 ```
 
 This command:
@@ -72,27 +69,15 @@ Mayhem. For example:
 nc localhost 8080 < /tmp/lighttpd/corpus/ba0dbafbd0b787a564635b887f77926ae0b3f979dcc72d30cf7fdb1707581919
 ```
 
-If you replay the exploit, then you should see the image exits with:
+If you replay the exploit, then you should see container no longer exists:
 
 ```
 docker ps -a
 ```
 
 You just replayed a test case that exists *outside* the docker container.  Think
-of it like connecting to a remote machine.  You can also mount the corpus
-*inside* the docker container, and get an interactive shell.
-
-  * The `-it` option runs docker in interactive mode with a user-given
-    command. For example:
-```
-docker  run -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
-```
-  * The `-v` flag will mount the local file system. For example:
-```
-docker  run -v /tmp/lighttpd/corpus:/mnt -it training.forallsecure.com:5000/forallsecure/tutorial/lighttpd bash
-```
-
-
+of it like connecting to a remote machine. The container no longer exists
+because lighttpd crashed after replaying the Mayhem generated exploit.
 
 ## Congratulations
 
