@@ -50,7 +50,10 @@ Click the start run button at the bottom of your screen to begin analysis!
 run](assets/images/start-run-button.png)
 
 The run may take a few minutes to complete, as analysis and post-analysis
-processing need to finish.
+processing need to finish. Once the run completes, the web page should look
+similar to this:
+
+![Completed Run](assets/images/completed-lab1a.png)
 
 Congratulations!
 
