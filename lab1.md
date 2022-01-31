@@ -1,4 +1,4 @@
-# Lab 1: Your first run. 
+# Lab 1a: Your first run. 
 
 ## Let's get started!
 
@@ -17,26 +17,6 @@ Create a new account by navigating to
    * "Sign up": Create a local account on the Mayhem instance. 
 
 ![Mayhem Account Creation](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/account-creation.png)
-
-
-## Log in the CLI
-
-The `mayhem` CLI authenticates to the Mayhem server using an API token. The API
-token  is available three places:
-
-   * The [download screen](https://training.forallsecure.com/-/installation)
-   * In your profile settings, located in the top-left under your username, then
-     "Settings", then "API Tokens".
-   * Under the "?" help window. 
-
-Once you get your API token, log in the CLI:
-
-```
-mayhem login https://training.forallsecure.com/ <YOUR API KEY>
-```
-
-![API Token Locations](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/api-token-locations.png)
-
 
 ## Create a new Project
 
@@ -79,10 +59,28 @@ processing need to finish.
 Congratulations!
 
 You've just:
-  * Learned how to log into the CLI.
-  * Learned how to start a new Mayhem analysis job.
+  * Learned how to start a new Mayhem analysis job using the web interface.
   * Found your first exploitable bug using Mayhem!
   
+# Lab 1b: Run with the Mayhem CLI
 
+## Log in the CLI
+
+The `mayhem` CLI authenticates to the Mayhem server using an API token. The API
+token  is available three places:
+
+   * The [download screen](https://training.forallsecure.com/-/installation)
+   * In your profile settings, located in the top-left under your username, then
+     "Settings", then "API Tokens".
+   * Under the "?" help window. 
+
+Once you get your API token, log in the CLI:
+
+```
+mayhem login https://training.forallsecure.com/ <YOUR API KEY>
+```
+
+![API Token Locations](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/api-token-locations.png)
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+
