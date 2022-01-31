@@ -1,14 +1,12 @@
-# Lab 1a: Your first run. 
+# Lab 1a: Your First Run
 
-## Let's get started!
+## Overview
 
 This guide will show you how to get started with Mayhem using the web interface.
 
 **Time to complete**: About 5 minutes
 
-Click the **Start** button to move to the next step.
-
-## Create a Mayhem account
+## Step 1. Create a Mayhem account
 
 Create a new account by navigating to 
 [training.forallsecure.com](https://training.forallsecure.com) and either choose:
@@ -17,7 +15,7 @@ Create a new account by navigating to
 
 ![Mayhem Account Creation](assets/images/account-creation.png)
 
-## Create a new Project
+## Step 2. Create a new Run
 
 Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
 1.4.15, to be specific).
@@ -30,7 +28,7 @@ Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
 ![Choose dockerhub
    image](assets/images/project-from-registry.png)
 
-## Configure Analysis
+## Step 3. Configure Analysis
 
 There are two tabs of analysis options: Basic and Advanced. We will be configuring three values:
    1. Under **Basic**, set the analysis to run 30 seconds. If omitted, analysis will run
