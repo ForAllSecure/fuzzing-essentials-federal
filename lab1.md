@@ -2,10 +2,9 @@
 
 ## Let's get started!
 
-This guide will show you how to get started with Mayhem using Google Cloud
-Shell.
+This guide will show you how to get started with Mayhem using the web interface.
 
-**Time to complete**: About 10 minutes
+**Time to complete**: About 5 minutes
 
 Click the **Start** button to move to the next step.
 
@@ -16,7 +15,7 @@ Create a new account by navigating to
    * Google account: Use your Google account on Mayhem
    * "Sign up": Create a local account on the Mayhem instance. 
 
-![Mayhem Account Creation](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/account-creation.png)
+![Mayhem Account Creation](assets/images/account-creation.png)
 
 ## Create a new Project
 
@@ -24,12 +23,12 @@ Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
 1.4.15, to be specific).
 
    * Create a new project by clicking the "plus" icon at the top of the screen.
-![Create new project](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/create-new-project.png)
+![Create new project](assets/images/create-new-project.png)
    * Select the Mayhem docker registry, and the play icon next to the
    `forallsecure/tutorial/lighttpd` version 1.14.15
    image. 
 ![Choose dockerhub
-   image](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/project-from-registry.png)
+   image](assets/images/project-from-registry.png)
 
 ## Configure Analysis
 
@@ -41,9 +40,9 @@ There are two tabs of analysis options: Basic and Advanced. We will be configuri
    3. Under **Advanced**, click the **Tasks** button, and enable **Code
       Coverage**.
 
-![Basic configuration](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/basic-configuration-options.png)
+![Basic configuration](assets/images/basic-configuration-options.png)
 
-![Advanced configuration](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/advanced-configuration-options.png)
+![Advanced configuration](assets/images/advanced-configuration-options.png)
 
    
 ## Click start run!
@@ -51,7 +50,7 @@ There are two tabs of analysis options: Basic and Advanced. We will be configuri
 Click the start run button at the bottom of your screen to begin analysis!
 
 ![Click start
-run](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/start-run-button.png)
+run](assets/images/start-run-button.png)
 
 The run may take a few minutes to complete, as analysis and post-analysis
 processing need to finish.
@@ -80,7 +79,7 @@ Once you get your API token, log in the CLI:
 mayhem login https://training.forallsecure.com/ <YOUR API KEY>
 ```
 
-![API Token Locations](https://raw.githubusercontent.com/dbrumley/fuzzing-cloudshell-tutorial/master/assets/images/api-token-locations.png)
+![API Token Locations](assets/images/api-token-locations.png)
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
