@@ -33,14 +33,16 @@ Let's reproduce an exploit for [lighttpd](https://www.lighttpd.net/)! (version
 There are two tabs of analysis options: Basic and Advanced. We will be configuring three values:
    1. Under **Basic**, set the analysis to run 30 seconds. If omitted, analysis will run
       forever in continuous fuzz mode. 
+
+   ![Basic configuration](assets/images/basic-configuration-options.png)
+
+
    2. Under **Advanced**, enable the **Advanced Triage** option. This option performs additional
       in-depth analysis, and requires `libc6-dbg` installed.
    3. Under **Advanced**, click the **Tasks** button, and enable **Code
       Coverage**.
 
-![Basic configuration](assets/images/basic-configuration-options.png)
-
-![Advanced configuration](assets/images/advanced-configuration-options.png)
+   ![Advanced configuration](assets/images/advanced-configuration-options.png)
 
    
 ## Click start run!
