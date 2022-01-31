@@ -37,10 +37,7 @@ There are two tabs of analysis options: Basic and Advanced. We will be configuri
    ![Basic configuration](assets/images/basic-configuration-options.png)
 
 
-   2. Under **Advanced**, enable the **Advanced Triage** option. This option performs additional
-      in-depth analysis, and requires `libc6-dbg` installed.
-   3. Under **Advanced**, click the **Tasks** button, and enable **Code
-      Coverage**.
+   2. Under **Advanced**, enable the **Advanced Triage** option and the **Code Coverage** task. 
 
    ![Advanced configuration](assets/images/advanced-configuration-options.png)
 
