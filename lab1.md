@@ -115,8 +115,20 @@ tutorial/lighttpd/2
 
 Note the warning regarding the corpus directory is normal for this tutorial.
 
-Navigate to the run page by copying and pasting "Run URL" from the above output
-into your web browser's address bar.
+Navigate to the Web interface for this run by clicking on the "Run URL" from
+the output in the VM's shell.
+
+Like lab 1a, the run may take a few minutes to complete, as analysis and
+post-analysis processing need to finish. Once the run completes, the web page
+should look similar to this:
+
+![Completed Run](assets/images/completed-lab1a.png)
+
+Congratulations!
+
+You've just:
+  * Learned how to start a new Mayhem analysis job using the CLI.
+  * Learned how to find a run in the UI after starting it with the CLI.
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
