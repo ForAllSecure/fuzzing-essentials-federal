@@ -30,8 +30,3 @@ cmds:
       is_client: false
     env: {}
 
-# Where Mayhem will look for "seed" payloads.
-corpus:
-  - https://training.forallsecure.com/nathan/tutorial/lighttpd/corpus.tar
-  - file://corpus
-
