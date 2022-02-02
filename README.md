@@ -115,4 +115,4 @@ more autonomous.
 * [Linux CLI Basics](https://youtu.be/MhlWCja5JwE)
 * [Linux CLI Text Editors](https://youtu.be/MhlWCja5JwE)
 * [Linux CLI Reference](assets/Linux_Useful_Commands.pdf)
-
+* [slido (for Survey Questions)](https://www.sli.do/)
