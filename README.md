@@ -55,7 +55,46 @@ open source tools like AFL, libfuzzer, and honggfuzz.
 
 We’re excited to have you join us.  We hope you take away fundamental new
 skills. But moreso, we also hope you come away with a passion for making appsec
-more autonomous. 
+more autonomous.
+
+## Agenda
+
+- Introductions
+- Course Overview
+- Lab 1: Fuzzing Lighttpd
+    - 1a. Fuzz with the Mayhem UI.
+        - Outcomes:
+            - Log in to the Mayhem UI
+            - Launch lighttpd fuzzing campaign
+            - Find vulnerability.
+    - 1b. Fuzzing Lighttpd (CLI)
+        - Outcomes:
+            - Log in to the Mayhem CLI
+            - Launch lighttpd fuzzing campaign
+            - Find vulnerability.
+- Lab 2: Reproducing Vulnerabilities Locally
+    - Outcomes:
+        - Download test cases.
+        - Run lighttpd in a container “locally”.
+        - “Replay” vulnerability.
+- Four Corners of Application Security
+    - Outcomes:
+        - Understanding 4 corners of appsec
+        - Identify why binary analysis (vs source) is critical
+        - Describe coverage, and how it relates to a program behavior
+            - Function coverage
+            - Node Coverage
+            - Edge Coverage
+            - Path Coverage
+    - Revisiting Lab 1:
+        - Interpret fuzzing coverage output
+        - Understand how security testing relates to software reliability testing and standards.
+- Tutorial Testme example
+    - Mayhem package
+    - Docker
+- Symbolic Execution Primer
+    - Outcomes:
+        - Understand what Mayhem does under the hood.
 
 ## Schedule
 
