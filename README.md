@@ -113,13 +113,13 @@ more autonomous.
 
 ## Schedule
 
-* Day 1: 1000 - 1700 ET
+* Day 1: 1100 - 1830 ET
   * Lunch: 1200 - 1300 ET
   * 5 minute break every ~1 hour.
   * 15 minute break every ~2 hours.
-  * Social 1700-1730
+  * Social 1800-1830
 
-* Day 2: 1000 - 1500 ET
+* Day 2: 1100 - 1600 ET
   * Lunch: 1200 - 1300 ET
   * 5 minute break every ~1 hour.
   * 15 minute break every ~2 hours.
@@ -129,7 +129,7 @@ more autonomous.
 * [Mayhem Instance (https://training.forallsecure.com)](https://training.forallsecure.com)
 * [Lab 1](lab1.md)
 * [Lab 2](lab2.md)
-* [Mayhem Slack](https://forallsecure-mayhem.slack.com/archives/C01BQ0VTXM1)
+* [Mayhem Community](https://community.forallsecure.com)
 
 ## Resources
 
