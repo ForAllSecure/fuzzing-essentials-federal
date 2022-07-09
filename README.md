@@ -89,40 +89,16 @@ more autonomous.
     - Revisiting Lab 1:
         - Interpret fuzzing coverage output
         - Understand how security testing relates to software reliability testing and standards.
-- Tutorial Testme example
-    - Mayhem package
-    - Docker
-- Challenge: Fuzz $n$-day
+- Put it into practice: Fuzz $n$-day
     - Docker Image: dbrumley/libbw64:latest
     - Program: /libbw64/libbw64/build/examples/bw64_read_write
     - Solution: Ask!
-- Symbolic Execution Primer
-    - Outcomes:
-        - Understand what Mayhem does under the hood.
-- Zero-days:
-    - Toyota, Bosch, and Honda open-source, oh my!
-- Networking:
-    - Tutorial bacsrv
-    - Example: exploiting netflix dial https://github.com/ForAllSecure/VulnerabilitiesLab/blob/master/netflix-cve-2019-10028/mayhem/dial/Mayhemfile
-- OSS Fuzzers
-    - AFL
-    - libfuzzer
-        - Advanced Challenge: Fuzz ConnMan, Exploit Car!
-- Fuzzing Harnesses
-    - libxml lab
 
 ## Schedule
 
-* Day 1: 1100 - 1830 ET
-  * Lunch: 1200 - 1300 ET
+* Day 1: 900 - 330 ET
+  * Lunch: 1200 - 1245 ET
   * 5 minute break every ~1 hour.
-  * 15 minute break every ~2 hours.
-  * Social 1800-1830
-
-* Day 2: 1100 - 1600 ET
-  * Lunch: 1200 - 1300 ET
-  * 5 minute break every ~1 hour.
-  * 15 minute break every ~2 hours.
 
 ## Links
 
