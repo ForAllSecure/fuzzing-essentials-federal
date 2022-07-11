@@ -96,8 +96,8 @@ more autonomous.
 
 ## Schedule
 
-* Day 1: 800 - 400 MT
-  * Lunch: 1200 - 1300 MT
+* Day 1: 800 - 1300 MT
+  * Lunch: 1100 - 1145 MT
   * 5 minute break every ~1 hour.
 
 ## Links
