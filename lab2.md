@@ -24,7 +24,13 @@ You download results using the `mayhem download` command, specifying an output
 directory with `-o`.  
 
 ```
-mayhem download tutorial/lighttpd -o /tmp/lighttpd
+mayhem download tutorial/lighttpd -o .
+```
+
+Or, if you're already in the `lighttpd` directory, simply run:
+
+```
+mayhem sync .
 ```
 
 ## Run docker image
