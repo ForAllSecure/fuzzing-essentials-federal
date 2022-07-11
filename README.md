@@ -96,8 +96,8 @@ more autonomous.
 
 ## Schedule
 
-* Day 1: 900 - 330 ET
-  * Lunch: 1200 - 1245 ET
+* Day 1: 800 - 400 MT
+  * Lunch: 1300 - 1400 MT
   * 5 minute break every ~1 hour.
 
 ## Links
