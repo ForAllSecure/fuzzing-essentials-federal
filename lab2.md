@@ -41,7 +41,7 @@ nuts and bolts. We recommend you take some time to read the Docker
 
 To run the vulnerable image:
 ```
-docker run --rm -i -d -p 8080:80 training.forallsecure.com:5000/forallsecure/tutorial/lighttpd:1.4.15
+docker run --rm -i -d -p 8080:80 forallsecure/lighttpd:vulnerable
 ```
 
 This command:
@@ -56,7 +56,7 @@ This command:
 To check that the docker image is running, run the `docker ps` command:
 
 ```
-docker ps -a
+docker ps
 ```
 
 
@@ -66,13 +66,13 @@ Since this is a network server, we will use a utility called
 Mayhem. For example:
 
 ```
-nc localhost 8080 < /tmp/lighttpd/corpus/ba0dbafbd0b787a564635b887f77926ae0b3f979dcc72d30cf7fdb1707581919
+nc localhost 8080 < ./corpus/ba0dbafbd0b787a564635b887f77926ae0b3f979dcc72d30cf7fdb1707581919
 ```
 
 If you replay the exploit, then you should see container no longer exists:
 
 ```
-docker ps -a
+docker ps
 ```
 
 You just replayed a test case that exists *outside* the docker container.  Think
