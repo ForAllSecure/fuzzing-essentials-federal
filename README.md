@@ -1,5 +1,24 @@
 # Fuzzing Essentials: Training for Federal Employees and Contractors
 
+## Schedule
+
+* Day 1: 800 - 1300 MT
+  * Lunch: 1100 - 1145 MT
+  * 5 minute break every ~1 hour.
+
+## Links
+
+* [Mayhem Instance (https://training.forallsecure.com)](https://training.forallsecure.com)
+* [Lab 1](lab1.md)
+* [Lab 2](lab2.md)
+* [Mayhem Community](https://community.forallsecure.com)
+
+## Resources
+
+* [Linux CLI Basics](https://youtu.be/MhlWCja5JwE)
+* [Linux CLI Text Editors](https://youtu.be/j83TDCMkBlM)
+* [Linux CLI Reference](assets/Linux_Useful_Commands.pdf)
+
 ## Course Description
 
 The world is facing a software security crisis.
@@ -94,22 +113,5 @@ more autonomous.
     - Program: /libbw64/libbw64/build/examples/bw64_read_write
     - Solution: Ask!
 
-## Schedule
 
-* Day 1: 800 - 1300 MT
-  * Lunch: 1100 - 1145 MT
-  * 5 minute break every ~1 hour.
-
-## Links
-
-* [Mayhem Instance (https://training.forallsecure.com)](https://training.forallsecure.com)
-* [Lab 1](lab1.md)
-* [Lab 2](lab2.md)
-* [Mayhem Community](https://community.forallsecure.com)
-
-## Resources
-
-* [Linux CLI Basics](https://youtu.be/MhlWCja5JwE)
-* [Linux CLI Text Editors](https://youtu.be/j83TDCMkBlM)
-* [Linux CLI Reference](assets/Linux_Useful_Commands.pdf)
 
