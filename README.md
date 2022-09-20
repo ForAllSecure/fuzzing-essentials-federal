@@ -133,8 +133,6 @@ more autonomous.
 
 ## Resources
 
-* [Linux CLI Basics](https://youtu.be/MhlWCja5JwE)
-* [Linux CLI Text Editors](https://youtu.be/j83TDCMkBlM)
 * [Linux CLI Reference](assets/Linux_Useful_Commands.pdf)
 * [slido (for Survey Questions)](https://www.sli.do/)
 * [Adversarial Testing Training and Certification Course](assets/Adversarial_Testing_Training_and_Certification_Offering.pdf)
